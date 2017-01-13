@@ -19,22 +19,23 @@ Download the 2014/2015 Demographic and Health Surveys data from the [DHS website
 ## 3. Figure out what's in the data
 * [Explanation of what's inside each of the files](http://dhsprogram.com/data/Dataset-Types.cfm)
 * Explore the data. Use variable labels. Look out for missing values (NA and coded values like '9', '996', '998', '999'). Note that all floating point (decimal) values are whole numbers.
+* Our notes on [things that tripped us up working with the DHS](https://github.com/tessam30/RwandaLAM/wiki/DHS-variable-notes)
 * Skim through the [DHS recode manual](http://www.dhsprogram.com/pubs/pdf/DHSG4/Recode6_DHS_22March2013_DHSG4.pdf) and [recode map](http://www.dhsprogram.com/pubs/pdf/DHSG4/Recode6_Map_22March2013_DHSG4.pdf)
 * Skim through the [DHS survey questionnaires](http://www.dhsprogram.com/publications/publication-DHSQ7-DHS-Questionnaires-and-Manuals.cfm)
 * Glance at the [DHS forum](http://userforum.dhsprogram.com/) (user-submitted questions)
 
 ## 4. If there's time...
 * Start to recreate the DHS's wealth index, which is the first principal component of a PCA on household-level assets.  Associated documentation:
-[Initial academic paper on using PCA to make wealth indices] (http://vanneman.umd.edu/socy699J/FilmerP01.pdf)
-[Tim's notes on how to create wealth indices]
-[Overview page for how the DHS calculates wealth indices]
-[PCA results from Rwanda (as .xlsx)]
-[Paper talking about how wealth index is calculated]
-[In-depth description of how wealth index is calculated in practice (variables, code)]
+ * [Initial academic paper on using PCA to make wealth indices] (http://vanneman.umd.edu/socy699J/FilmerP01.pdf)
+ * [Tim's notes on how to create wealth indices](https://github.com/tessam30/Tools/blob/master/Methods/Wealth.Indices.md)
+ * [Overview page for how the DHS calculates wealth indices](http://www.dhsprogram.com/topics/wealth-index/Wealth-Index-Construction.cfm)
+ * [PCA results from Rwanda](http://www.dhsprogram.com/programming/wealth%20index/Rwanda%20DHS%202014-15/Rwanda%20DHS%202014-15.pdf) (as [.xlsx](http://www.dhsprogram.com/programming/wealth%20index/Rwanda%20DHS%202014-15/Rwanda%20DHS%202014-15.xlsx))
+ * [Paper talking about how wealth index is calculated](https://dhsprogram.com/pubs/pdf/CR6/CR6.pdf)
+ * [In-depth description of how wealth index is calculated in practice (variables, code)](http://www.dhsprogram.com/programming/wealth%20index/Steps_to_constructing_the_new_DHS_Wealth_Index.pdf)
 
 * Try your hand at creating your own wealth index. The DHS's is built for cross-country comparisons.  What variables would you add/subtract in the index?
 
 ## Goals for the first week
-1. Understand how data is broken into models in the DHS.
-* Understand how to merge data between models.
+1. Understand how data is broken into modules in the DHS.
+* Understand how to merge data between modules.
 * Know where to look to figure out what are variables.
