@@ -3,6 +3,14 @@ Rwanda has experienced substantial economic growth in the past decade.  However,
 In this project, you’ll process and analyze 2014/15 Rwanda Demographic and Health Survey Data to assess household-level factors associated with stunting in children under 60 months.
 
 
+## Goals for the first week
+1. Understand how data is broken into modules in the DHS.
+* Understand how to merge data between modules.
+* Know where to look to figure out what are variables.
+* Come up with questions you want to ask us in our next check-in
+
+# Alright, let's get started.
+
 ## 1. Get the data
 Download the 2014/2015 Demographic and Health Surveys data from the [DHS website](http://dhsprogram.com/data/dataset/Rwanda_Standard-DHS_2015.cfm?flag=0):
 
@@ -34,8 +42,3 @@ Download the 2014/2015 Demographic and Health Surveys data from the [DHS website
  * [In-depth description of how wealth index is calculated in practice (variables, code)](http://www.dhsprogram.com/programming/wealth%20index/Steps_to_constructing_the_new_DHS_Wealth_Index.pdf)
 
 * Try your hand at creating your own wealth index. The DHS's is built for cross-country comparisons.  What variables would you add/subtract in the index?
-
-## Goals for the first week
-1. Understand how data is broken into modules in the DHS.
-* Understand how to merge data between modules.
-* Know where to look to figure out what are variables.
