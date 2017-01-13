@@ -11,7 +11,7 @@ Download the 2014/2015 Demographic and Health Surveys data from the [DHS website
 * Import the data into R, python, or similar. If you’re using R, we recommend using package haven to import the data as a Stata (.dta) file using `read_dta`. This will maintain the variable and value labels to help you figure out what the data contain.
 
 ## 2. Read summaries of stunting in Rwanda
-* [DHS Final Report](http://dhsprogram.com/publications/publication-FR316-DHS-Final-Reports.cfm) Focus on: 
+* Read parts of the [DHS Final Report](http://dhsprogram.com/publications/publication-FR316-DHS-Final-Reports.cfm), focusing on: 
   * Section 1 (INTRODUCTION)
   * Section 2 (HOUSEHOLD CHARACTERISTICS)
   * Section 11.1 (Nutritional Status of Children).
